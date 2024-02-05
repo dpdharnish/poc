@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite" parallel="true" thread-count="4" verbose="10">
+<!--    <test preserve-order="true" name="device1">-->
+<!--        <parameter name="udid" value="a9f2c856640d10454e2b19922bdaf50bc49aa061"></parameter>-->
+<!--        <parameter name="url" value="https://dev-us-nje-1.headspin.io:7012/v0/80baacf2d97e4bd29aa3a361775f0786/wd/hub"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="WeatherApp.WeatherIos">-->
+<!--                <methods>-->
+<!--                    <include name="method"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test preserve-order="true" name="device2">-->
+<!--        <parameter name="udid" value="00008030-000408C12E3B802E"></parameter>-->
+<!--        <parameter name="url" value="https://dev-us-sny-8.headspin.io:7007/v0/80baacf2d97e4bd29aa3a361775f0786/wd/hub"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="WeatherApp.WeatherIos">-->
+<!--                <methods>-->
+<!--                    <include name="method"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+<!--    <test preserve-order="true" name="device3">-->
+<!--        <parameter name="udid" value="00008020-001828A03E08002E"></parameter>-->
+<!--        <parameter name="url" value="https://dev-us-sny-8.headspin.io:7007/v0/80baacf2d97e4bd29aa3a361775f0786/wd/hub"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="WeatherApp.WeatherIos">-->
+<!--                <methods>-->
+<!--                    <include name="method"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test preserve-order="true" name="device3">
+        <parameter name="udid" value="00008020-001E71D10168002E"></parameter>
+        <parameter name="url" value="https://dev-in-cjb-0.headspin.io:7003/v0/b048fc345f604fe9ad9c3fa2e9234b6f/wd/hub"></parameter>
+        <classes>
+            <class name="WeatherApp.WeatherIos">
+                <methods>
+                    <include name="method"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+<!--    <test preserve-order="true" name="device4">-->
+<!--        <parameter name="udid" value="a29d5d077ea3d71900b66c35c3ece16820046898"></parameter>-->
+<!--        <parameter name="url" value="https://dev-us-sny-8.headspin.io:7007/v0/80baacf2d97e4bd29aa3a361775f0786/wd/hub"></parameter>-->
+<!--        <classes>-->
+<!--            <class name="WeatherApp.WeatherIos">-->
+<!--                <methods>-->
+<!--                    <include name="method"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+</suite>
